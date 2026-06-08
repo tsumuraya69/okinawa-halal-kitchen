@@ -1,0 +1,14 @@
+[0;1;32m●[0m ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (]8;;file://srv1432163/usr/lib/systemd/system/ssh.service/usr/lib/systemd/system/ssh.service]8;;; [0;1;38;5;185mdisabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Thu 2026-04-30 14:26:29 UTC; 1 month 4 days ago
+TriggeredBy: [0;1;32m●[0m ssh.socket
+       Docs: ]8;;man:sshd(8)man:sshd(8)]8;;
+             ]8;;man:sshd_config(5)man:sshd_config(5)]8;;
+   Main PID: 1738102 (sshd)
+      Tasks: 1 (limit: 9484)
+     Memory: 5.8M (peak: 10.9M)
+        CPU: 6min 6.921s
+     CGroup: /system.slice/ssh.service
+             └─[0;38;5;245m1738102 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"[0m
+
+Notice: journal has been rotated since unit was started, output may be incomplete.
